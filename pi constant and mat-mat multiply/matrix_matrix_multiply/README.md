@@ -288,7 +288,7 @@ The output should look like this:
 
 Let’s try this with 4 cores (`-np 4`) to see the difference:
 
-```p```i = 3.141592653590041 computed in 0.7391 seconds; rate = 3.788 GFLOPS```
+```pi = 3.141592653590041 computed in 0.7391 seconds; rate = 3.788 GFLOPS```
 
 
 As we can see, exploiting more cores results in less time and more FLOPs. Concretely, when using only 2 cores to run in parallel the execution time is approximately two time as long as running with 4 cores, which makes sense.
