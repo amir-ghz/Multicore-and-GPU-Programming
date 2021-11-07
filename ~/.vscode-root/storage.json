@@ -468,6 +468,13 @@
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
+                                    "id": "workbench.action.splitEditorInGroup",
+                                    "label": "Split in &&Group"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
+                                {
                                     "id": "workbench.action.editorLayoutSingle",
                                     "label": "&&Single"
                                 },
@@ -585,8 +592,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -595,8 +601,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1243,6 +1248,11 @@
                 "isNative": false,
                 "userSettingsLabel": "ctrl+numpad0"
             },
+            "workbench.action.splitEditorInGroup": {
+                "label": "Ctrl+K Ctrl+Shift+\\",
+                "isNative": false,
+                "userSettingsLabel": "ctrl+k ctrl+shift+\\"
+            },
             "workbench.action.toggleEditorGroupLayout": {
                 "label": "Shift+Alt+0",
                 "userSettingsLabel": "shift+alt+0"
@@ -1495,9 +1505,9 @@
             "folder": "file:///home/amir/Desktop/00-intro-to-hpc/pi%20constant%20and%20mat-mat%20multiply/Multicore-and-GPU-Programming",
             "backupPath": "/home/amir/Desktop/00-intro-to-hpc/pi constant and mat-mat multiply/Multicore-and-GPU-Programming/~/.vscode-root/Backups/b5cf011d7644a5baf08eee2769b1b85b",
             "uiState": {
-                "mode": 1,
-                "x": 279,
-                "y": 99,
+                "mode": 0,
+                "x": 367,
+                "y": 187,
                 "width": 1024,
                 "height": 768
             }
