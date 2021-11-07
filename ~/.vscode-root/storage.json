@@ -402,7 +402,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel"
+                                    "label": "Show &&Panel",
+                                    "checked": true
                                 },
                                 {
                                     "id": "workbench.action.toggleEditorVisibility",
@@ -907,8 +908,7 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal",
-                        "enabled": false
+                        "label": "&&Split Terminal"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1496,8 +1496,8 @@
             "backupPath": "/home/amir/Desktop/00-intro-to-hpc/pi constant and mat-mat multiply/Multicore-and-GPU-Programming/~/.vscode-root/Backups/b5cf011d7644a5baf08eee2769b1b85b",
             "uiState": {
                 "mode": 1,
-                "x": 448,
-                "y": 193,
+                "x": 279,
+                "y": 99,
                 "width": 1024,
                 "height": 768
             }
