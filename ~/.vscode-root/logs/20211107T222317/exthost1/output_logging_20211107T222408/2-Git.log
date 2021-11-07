@@ -59,3 +59,13 @@ Warning: Failed to watch ref '/home/amir/Desktop/00-intro-to-hpc/pi constant and
 > git config --get commit.template
 > git check-ignore -v -z --stdin
 > git add -A -- .
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/main refs/remotes/main
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+Warning: Failed to watch ref '/home/amir/Desktop/00-intro-to-hpc/pi constant and mat-mat multiply/Multicore-and-GPU-Programming/.git/refs/remotes/origin/main', is most likely packed.
+> git config --get commit.template
+> git config --get commit.template
+> git add -A -- .
